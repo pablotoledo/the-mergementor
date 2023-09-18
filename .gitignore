@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+*.egg
+*.egg-info
+
+# Vagrant
+.vagrant/
+.vagrantfile
+*.log
+
+# Other
+.DS_Store
+.idea/
+
+# Avoiding gitleaks
+variables.env
